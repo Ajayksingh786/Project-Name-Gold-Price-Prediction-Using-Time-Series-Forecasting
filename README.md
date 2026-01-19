@@ -1,2 +1,3 @@
-# Project-Name-Gold-Price-Prediction-Using-Time-Series-Forecasting
-  Gold price prediction using historical time series data (2013–2023) with ARIMA and improved Bidirectional LSTM models.
+## Project-Name-Gold-Price-Prediction-Using-Time-Series-Forecasting ##
+Gold price prediction using historical time series data (2013–2023) with ARIMA and improved Bidirectional LSTM models.
+This project predicts future gold prices using historical data from 2013 to 2023. The dataset is cleaned and preprocessed for analysis. Two models are implemented: ARIMA as a statistical baseline and an improved Bidirectional LSTM neural network to capture non-linear patterns and long-term dependencies. The LSTM model is trained with a train-test split, dropout regularization, and early stopping to prevent overfitting. Model performance is evaluated using RMSE on unseen test data, and a 30-day future forecast is generated. The project demonstrates practical application of time series forecasting and deep learning in financial prediction.
